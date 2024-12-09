@@ -86,6 +86,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import styles from "../styles/Testimonial.module.css";
 import Img1 from "../assets/person1.jpg";
 import Img2 from "../assets/person2.jpg";
+import Img3 from "../assets/person3.jpg";
 
 const Testimonial = () => {
   const [currentReview, setCurrentReview] = useState(0);
@@ -103,8 +104,15 @@ const Testimonial = () => {
       image: Img2,
       review:
         "This webinar was life-changing. I cleared my IELTS with confidence and without stress!",
-      review_stars: 4,
+      review_stars: 5,
       person_name: "Harpreet Kaur, IELTS Achiever",
+    },
+    {
+      image: Img3,
+      review:
+        "I had been struggling with IELTS prep for months. This webinar gave me a simple, clear path, and I passed with flying colors!",
+      review_stars: 4,
+      person_name: "Gurpreet Kaur, IELTS Achiever",
     },
   ];
 
