@@ -143,12 +143,12 @@ let Banner = () => {
             } ${isFirstView ? styles.showAnimationSection : ""}`}
            >
             <h1>
-            Crack IELTS in Just ₹99 – Guaranteed Success with Bonuses Worth ₹5,000!
+            Crack IELTS in Just ₹99 – Limited Seats Left!
             </h1>
             {/* <div className={styles.outlinedText}>BOOST</div> */}
 
             <p>
-            Unlock your IELTS success with our exclusive 2-day webinar. Limited seats available!
+            Join the Prepeve Webinar today and access a comprehensive IELTS preparation strategy with bonuses valued at ₹5,000 – all for ₹99!
             </p>
             <span className={styles.encquireNowButton}>
             <Button text={'Enquire Now'}/>

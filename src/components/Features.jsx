@@ -54,7 +54,7 @@ const Features = () => {
               <div></div>
               <h5>Elevate Your Learning</h5>
             </div>
-            <h1>Key Features & Benefits of Joining This Webinar</h1>
+            <h1>Key Features & Benefits</h1>
             <p className={styles.FeaturesContentPara}>
               Join our exclusive IELTS webinar to gain expert insights, proven
               strategies, and practical tips for all test sections. Boost your
@@ -65,13 +65,13 @@ const Features = () => {
               <div>
                 <button className={styles.checkmarkButton}>✓</button>
               </div>{" "}
-              <p><b>Crack IELTS for Just ₹99:</b> Yes, you read that right! Our 2-day webinar is designed to give you everything you need to succeed, all for just ₹99. No hidden costs, no upsells.</p>
+              <p><b>Guaranteed IELTS Success:</b> This isn’t just any webinar. It’s a success blueprint! Get the exact steps to clear IELTS with ease.</p>
             </div>
             <div className={styles.FeaturesListParent}>
               <div>
                 <button className={styles.checkmarkButton}>✓</button>
               </div>{" "}
-              <p><b>Comprehensive Guidance: </b> 	Get access to expert strategies and tips from the best IELTS instructors to help you clear the exam in your first attempt.</p>
+              <p><b>IELTS Cheat Sheet: </b> Quickly learn what you must do to pass.</p>
             </div>
             <div className={styles.FeaturesListParent}>
               <div>

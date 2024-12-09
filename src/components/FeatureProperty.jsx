@@ -46,10 +46,11 @@ let FeatureProperty = () => {
             <h5>Event's Keynote Speaker </h5>
             <div></div>
           </div>
-          <h1>Meet the Webinar Leader</h1>
+          <h1>Instructor Experience</h1>
           <h4>
-            Our webinar is led by [Instructor’s Name], a seasoned IELTS trainer
-            with over [X] years of experience.
+            Join [Instructor’s Name], an expert with over [X] years of
+            experience, and take advantage of their proven techniques that have
+            helped over 1,000 students pass their IELTS exams.
           </h4>
           <ul>
             <li>
@@ -70,7 +71,7 @@ let FeatureProperty = () => {
           </p>
           <p>
           </p> */}
-          <Button text={"Book Your Slot Now"} />
+          <Button text={"Register Now"} />
         </div>
         <div
           className={`${styles.imageSection} ${styles.animationSection} ${

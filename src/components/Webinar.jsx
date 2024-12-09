@@ -6,9 +6,9 @@ const Webinar = () => {
     <>
       <div className={styles.containerParent}>
         <div className={styles.containerInside}>
-          <h1>Ready to transform your IELTS preparation?</h1>  
-          <p>Book your spot now for just ₹99 and unlock a world of possibilities!</p>
-          <Button text={"Book Now"}/>
+          <h1>Only 50 Seats Left!</h1>  
+          <p>The webinar seats are filling fast! Don’t miss out on this limited-time ₹99 offer.</p>
+          <Button text={"Register Now"}/>
         </div>
       </div>
     </>

@@ -95,16 +95,16 @@ const Testimonial = () => {
     {
       image: Img1,
       review:
-        "I cleared IELTS in my first attempt, and I owe it all to the strategies and guidance shared in this webinar. The mock test was a game-changer!",
+        "I was skeptical about the price, but after attending, I’m so glad I did. The cheat sheet alone was worth ₹99!",
       review_stars: 5,
-      person_name: "Manpreet Kaur, IELTS Achiever",
+      person_name: " Amandeep Singh, IELTS Success",
     },
     {
       image: Img2,
       review:
-        "I never thought cracking IELTS would be this easy! The cheat sheet and AI tools made my preparation so efficient. Thank you, Prepeve!",
+        "This webinar was life-changing. I cleared my IELTS with confidence and without stress!",
       review_stars: 4,
-      person_name: "Ravi Sharma, First Attempt Success",
+      person_name: "Harpreet Kaur, IELTS Achiever",
     },
   ];
 
@@ -112,7 +112,7 @@ const Testimonial = () => {
     setIsFading(true);
     setTimeout(() => {
       setCurrentReview((prev) => (prev + 1) % reviewData.length);
-      setIsFading(false );
+      setIsFading(false);
     }, 300);
   };
 
@@ -127,12 +127,12 @@ const Testimonial = () => {
   };
 
   return (
-    <div className={styles.testimonialsSection} id='testimonials'>
+    <div className={styles.testimonialsSection} id="testimonials">
       <div className={styles.testimonialsContentSection}>
-        <h2 className={styles.testHeading}>Testimonials</h2>
+        <h2 className={styles.testHeading}>Success Stories</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem ut magnam reprehenderit velit illo commodi!
+          Inspiring Experiences from IELTS Candidates Who Achieved Their Desired
+          Scores Through Personalized Coaching and Effective Preparation
         </p>
 
         <div className={styles.clientReviewsOverflowSection}>
